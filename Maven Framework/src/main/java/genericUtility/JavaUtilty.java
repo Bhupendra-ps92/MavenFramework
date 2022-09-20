@@ -9,6 +9,7 @@ public class JavaUtilty {
 	public int generateRandomNo(int limit) {
 		Random random = new Random();
 		return random.nextInt(limit);
+		
 	}
 
 	public String fetchDataFromPropertyFile(String key) throws IOException {
